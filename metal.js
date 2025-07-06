@@ -2,13 +2,13 @@
 //Vai aparecer certo ou errado. Alguns elementos do código.
 //Achei esse script em uma lista de exemplos de scripts na w3schools.com
 
-document.queryselectorall('.quiz-option').foreach(button => {
-    button.addeventlistener('click', function() {
-        const ncorrect = "Woods of Ypres";
-        const feedback = document.getelementbyid("feedback");
+document.querySelectorAll('.quiz-option').forEach(button => {
+    button.addEventListener('click', function() {
+        const correct = "Woods of Ypres";
+        const feedback = document.getElementById("feedback");
         if (this.textContent === correct) {
             feedback.textContent = "Correto!🤘";
-            feedback.style.color = "Green";
+            feedback.style.color = "green";
         } else {
             feedback.textContent = "Quase lá.";
             feedback.style.color = "red";
