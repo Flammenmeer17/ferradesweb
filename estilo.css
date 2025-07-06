@@ -1,0 +1,22 @@
+/* Alterações básicas como background, tamanho e fonte das letras. Acabei indo com essa configuração */
+
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background: #7eebe2;
+}
+nav {
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.1em;
+    text-align: center;
+}
+main {
+    background: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: #ff1e1e;
+    text-align: center;
+}
